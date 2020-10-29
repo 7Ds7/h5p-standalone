@@ -6,7 +6,7 @@ H5PIntegration = window.H5PIntegration;
 function urlPath(file) {
   let prefix = window.location.protocol + "//" + window.location.host;
   console.log('ping');
-  console.log(file)
+  console.log(file);
 
   if ( file.match(/^[a-z0-9]+:\/\//i) ) { // checks if path is a url with protocol
     return file;
